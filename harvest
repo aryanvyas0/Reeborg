@@ -1,1 +1,43 @@
+#The robot goes outisde the farm
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+ 
+def reach():
+    turn_left()
+    move()
+    move()
+    turn_right()
+    move()
+    move()
+   
+reach()
+def farmin():
+    for carrot in range (0,6):
+        if object_here():
+            take()
+            move()
+farmin()
+def ltor():
+    turn_left()
+    move()
+    turn_left()
+    move()
+
+ltor()
+farmin()
+def rtol():
+    turn_right()
+    move()
+    turn_right()
+    move()
+rtol()
+farmin()
+ltor()
+farmin()
+rtol()
+farmin()
+ltor()
+farmin()
 
